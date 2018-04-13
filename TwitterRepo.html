@@ -58,7 +58,7 @@
         <div>
           <ul>
             {languages.map((lngs, i) =>(
-              <li key={i} onClick={() => props.handleOnLangClick(lngs)}>
+              <li key={i} style={{cursor : 'pointer'}} onClick={() => props.handleOnLangClick(lngs)}>
                 {lngs}
               </li>
             ))
